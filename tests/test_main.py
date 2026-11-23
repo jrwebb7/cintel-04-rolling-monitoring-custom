@@ -1,5 +1,8 @@
 """tests/test_main.py - Smoke test for the example.
 
+Author (custom project): James Webb (jrwebb7)
+Date: 2026-11
+
 WHY: Professional Python projects include tests to verify that code runs
      correctly and to catch problems early when changes are made.
      Running tests is part of the standard workflow in every module.

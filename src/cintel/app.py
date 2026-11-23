@@ -1,5 +1,8 @@
 """app.py - Reactive marimo app for this project.
 
+Author (custom project): James Webb (jrwebb7)
+Date: 2026-11
+
 Marimo adds reactive controls.
 Every function below is a marimo cell.
 
@@ -97,7 +100,7 @@ def _(load_timeseries_metrics, mo, sys):
     filename = "system_metrics_timeseries.csv"
 
     if sys.platform == "emscripten":
-        from pyodide.http import open_url  # ty: ignore[unresolved-import]
+        from pyodide.http import open_url  # ty: ignore[import-not-found]
 
         data_url = notebook_location / "public" / filename
         df = load_timeseries_metrics(open_url(str(data_url)))

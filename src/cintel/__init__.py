@@ -1,5 +1,8 @@
 """cintel package.
 
+Author (custom project): James Webb (jrwebb7)
+Date: 2026-11
+
 This file can be left empty; it just has to exist.
 
 By adding a file named __init__.py to a folder,
